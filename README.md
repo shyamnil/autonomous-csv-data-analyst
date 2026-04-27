@@ -38,14 +38,19 @@ Backend: Flask (Production-ready API).
 Clone & Configure:
 
 Bash
-git clone https://github.com/YOUR_USERNAME/autonomous-csv-data-analyst.git
+git clone https://github.com/shyamnil/autonomous-csv-data-analyst.git
 cd autonomous-csv-data-analyst
 
 Bash
 pip install -r requirements.txt
+
 python main.py
-To test the agent: 1. Upload a CSV via the UI.
+
+To test the agent: 
+1. Upload a CSV via the UI.
+
 2. Input a query in the prompt box.
+  
 3. Verify the "Generated Pandas Code" output matches the expected result.
 
 🔒 Security Policy
