@@ -39,9 +39,15 @@ Clone & Configure:
 
 Bash
 git clone https://github.com/shyamnil/autonomous-csv-data-analyst.git
+
 cd autonomous-csv-data-analyst
 
-Bash
+Set up the environment: Create a virtual environment and install dependencies:
+
+python -m venv venv
+
+.\venv\Scripts\activate  # Windows
+
 pip install -r requirements.txt
 
 python main.py
@@ -53,5 +59,3 @@ To test the agent:
   
 3. Verify the "Generated Pandas Code" output matches the expected result.
 
-🔒 Security Policy
-This project prioritizes Data Sovereignty. By utilizing a sandboxed Docker environment, we ensure that untrusted AI-generated code is limited to volatile memory, preventing unauthorized access to your file system or network.
