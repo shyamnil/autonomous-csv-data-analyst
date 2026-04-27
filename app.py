@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Hardcoded API Key - Replace with your actual key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 
 @app.route("/", methods=["GET", "POST"])
 def index():
