@@ -5,7 +5,6 @@ import os
 from groq import Groq
 
 # ======= CONFIGURATION =======
-# Your API Key is now hardcoded here and will not be asked for again.
 GROQ_API_KEY = "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"
 
 def preprocess_and_save(file_path):
