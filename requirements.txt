@@ -1,0 +1,6 @@
+flask
+pandas
+langchain
+langchain-experimental
+langchain-openai
+matplotlib
